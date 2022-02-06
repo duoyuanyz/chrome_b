@@ -1,0 +1,13 @@
+{
+  "name": "b站学习视频进度自动更新",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "b站学习视频进度自动更新",
+  
+  "background": {
+		"scripts": ["background.js"]
+	},
+"permissions": [
+  "history","bookmarks"
+]
+}
